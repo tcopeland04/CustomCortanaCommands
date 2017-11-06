@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+ <VoiceCommands xmlns="http://schemas.microsoft.com/voicecommands/1.2">
+  <CommandSet xml:lang="en-us" Name="CustomCommands">
+    <CommandPrefix> Listen up </CommandPrefix>
+    <Example> Open app, Open application </Example>
+
+    <Command Name="OpenApp">
+      <Example> Open app </Example>
+      <ListenFor> Open app </ListenFor>   
+      <Feedback> Opening app </Feedback>
+      <Navigate/>
+    </Command>
+
+
+    <Command Name="WhoIsIt">
+      <Example> Who is it </Example>
+      <ListenFor> Who is it </ListenFor>
+      <Feedback> Let's see who's at the door </Feedback>
+      <Navigate/>
+    </Command>
+    
+  </CommandSet>
+
+</VoiceCommands>
